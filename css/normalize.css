@@ -1,0 +1,223 @@
+
+
+h/* Fonts */
+html, body {
+  font-family: 'Arial', sans-serif; 
+}
+
+/* Body */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Audio, canvas, progress, video */
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* Audio:not([controls]) */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* Hidden elements */
+[hidden], template {
+  display: none;
+}
+
+/* Links */
+a {
+  background-color: transparent;
+}
+
+/* Active and hover state for links */
+a:active, a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* Bold text */
+b, strong {
+  font-weight: bold;
+}
+
+/* Italics */
+dfn {
+  font-style: italic;
+}
+
+/* Header 1 */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Marked text */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* Small text */
+small {
+  font-size: 80%;
+}
+
+/* Subscript and Superscript */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* Superscript */
+sup {
+  top: -0.5em;
+}
+
+/* Subscript */
+sub {
+  bottom: -0.25em;
+}
+
+/* Images */
+img {
+  border: 0;
+}
+
+/* SVG */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Figures */
+figure {
+  margin: 1em 40px;
+}
+
+/* Horizontal rule */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* Preformatted text */
+pre {
+  overflow: auto;
+}
+
+/* Code, keyboard, pre, sample */
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* Button overflow */
+button {
+  overflow: visible;
+}
+
+/* Text transform */
+button, select {
+  text-transform: none;
+}
+
+/* Appearance for buttons and inputs */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* Disabled button */
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+/* Remove inner padding and border */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* Line height for input */
+input {
+  line-height: normal;
+}
+
+/* Checkbox and radio input */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* Spin buttons for number input */
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* Search input */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* Remove inner padding and search cancel button */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* Fieldset */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* Legend */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* Textarea overflow */
+textarea {
+  overflow: auto;
+}
+
+/* Optgroup font weight */
+optgroup {
+  font-weight: bold;
+}
+
+/* Table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Table cell padding */
+td, th {
+  padding: 0;
+}
